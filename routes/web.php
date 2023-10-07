@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-// ******************* frontendcontroller*******************
 use App\Http\Controllers\FrontEndController;
 use Illuminate\Support\Facades\Artisan;
 
@@ -15,6 +15,22 @@ use Illuminate\Support\Facades\Artisan;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::post('/images', [ProfileController::class, 'image']);
+});
+
 
 // ====================start for fronend===============
 Route::get('/', [FrontEndController::class,'index']);
@@ -31,6 +47,7 @@ Route::get('web-maintaine', [FrontEndController::class,'WebMaintaine']);
 Route::get('amethi-tech', [FrontEndController::class,'AmethiTech']);
 Route::post('send-mail', [FrontEndController::class,'SendMail']);
 Route::post('storenow', [FrontEndController::class,'StoreNow']);
+Route::get('gallery', [ProfileController::class,'uploadimage']);
 
 Route::get('clear', function() {
     Artisan::call('cache:clear');
@@ -44,3 +61,5 @@ Route::get('clear', function() {
 Route::fallback(function () {
     return view('404');
 });
+
+require __DIR__.'/auth.php';
