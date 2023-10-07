@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
 @section('title')
-<title>Amethitech | Website Designers in Amethi  </title>
+<title>Amethitech | Website Designers in up  </title>
 @endsection
 
 @section('meta')
