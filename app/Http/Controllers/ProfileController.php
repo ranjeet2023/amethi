@@ -77,7 +77,7 @@ class ProfileController extends Controller
     public function uploadimage()
     {
         // $gallery =Image::get();
-        $gallery = Image::paginate(30); // Paginate by 10 items per page
+        $gallery = Image::paginate(36); // Paginate by 10 items per page
 
         return view('gallery',compact('gallery'));
 
