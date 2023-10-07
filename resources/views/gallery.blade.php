@@ -1,13 +1,13 @@
 @extends('frontend.layouts.header')
 
 @section('title')
-    <title>Amethitech | Website Designers in UP</title>
+    <title>Amethitech | amethitech Gallery</title>
 @endsection
 
 @section('meta')
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amethitech is a dynamic website design company in Amethi, specializing in website design for schools, hotels, and hospitals. Contact us at 7217645059 for low-cost and effective website solutions for your business.">
-    <meta name="keywords" content="website design in Amethi">
+    <meta name="description" content="gallery of amethitech these gallery image are created with the help of artificial intelligence,
+    gallery of future">
 @endsection
 
 <style>
@@ -49,7 +49,9 @@
         display: inline;
         margin-right: 10px; /* Adjust spacing between pagination items */
     }
-
+   .hidden {
+       display: none;
+   }
 </style>
 
 @section('index-script')
@@ -58,18 +60,19 @@
 
 @section('content')
     <section data-bs-version="5.1" class="features6 cid-tlVYUtaSS3" id="features06-b" style='background-color:#c6ffe0 !important'>
-        <div class="container">
-            <div class="image-gallery">
+        <div class="container" >
+            <div class="image-gallery"  >
                 @foreach ($gallery as $image)
-                    <div class="image">
+                    <div class="image" >
                         <img src="{{ asset('uploads/' . $image->image) }}" alt="{{ $image->title }}">
                         <p>{{ $image->title }}</p>
                     </div>
                 @endforeach
             </div>
-            <div id="pagination">
+            <div id="pagination" >
                 {{ $gallery->links() }}
             </div>
         </div>
     </section>
+
 @endsection
