@@ -77,7 +77,7 @@ h2 {
                             {{-- "𝙰𝚖𝚎𝚝𝚑𝚒𝚝𝚎𝚌𝚑:- 𝚈𝚘𝚞𝚛 𝚝𝚛𝚞𝚜𝚝𝚎𝚍 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚍𝚎𝚜𝚒𝚐𝚗 𝚌𝚘𝚖𝚙𝚊𝚗𝚢. 𝚆𝚎 𝚜𝚙𝚎𝚌𝚒𝚊𝚕𝚒𝚣𝚎 𝚒𝚗 𝚌𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚜𝚝𝚞𝚗𝚗𝚒𝚗𝚐, 𝚞𝚜𝚎𝚛-𝚏𝚛𝚒𝚎𝚗𝚍𝚕𝚢 𝚠𝚎𝚋𝚜𝚒𝚝𝚎𝚜 𝚏𝚘𝚛 𝚜𝚌𝚑𝚘𝚘𝚕𝚜, 𝚌𝚘𝚕𝚕𝚎𝚐𝚎𝚜,𝚑𝚘𝚜𝚙𝚒𝚝𝚊𝚕𝚜, 𝚑𝚘𝚝𝚎𝚕𝚜, 𝚏𝚘𝚘𝚍 𝚍𝚎𝚕𝚒𝚟𝚎𝚛𝚢, 𝚊𝚗𝚍 𝚎-𝚌𝚘𝚖𝚖𝚎𝚛𝚌𝚎 𝚋𝚞𝚜𝚒𝚗𝚎𝚜𝚜𝚎𝚜" --}}
                         </p>
                         <div class="mbr-section-btn mt-4">
-                            <a class="btn btn-secondary-outline display-4 fs-4" style="font-family:'Times New Roman', Times, serif;" href="{{url('amethi-tech')}}">Read more</a>
+                            <a class="btn p-2 btn-secondary-outline display-4 fs-5" style="font-family:'Times New Roman', Times, serif;" href="{{url('amethi-tech')}}">Read more</a>
                         </div>
                         <div class="title mt-2 p-2">
                             <h2>"𝙶𝚎𝚝 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚖𝚊𝚍𝚎 𝚒𝚗 𝚓𝚞𝚜𝚝 <br> 𝚁𝚜 4,899."</h2>
