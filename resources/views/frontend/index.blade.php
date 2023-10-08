@@ -60,7 +60,7 @@ h2 {
                             <a href="#features06-b">
                                 <div class="subtitle-wrap">
                                     <span class=""><i class="fa-solid fa-code"></i></span>
-                                    <h2 class="mbr-section-subtitle mbr-fonts-style m-0 p-0 display-7 fs-4" style="font-family:'Times New Roman', Times, serif;">
+                                    <h2 class="d-none d-sm-block mbr-section-subtitle mbr-fonts-style m-0 p-0 display-7 fs-4" style="font-family:'Times New Roman', Times, serif;">
                                         Website Design
                                     </h2>
                                     <span class="mbr-iconfont fs-25 "><i class="fa-solid fa-arrow-right fa-fade"></i></span>
