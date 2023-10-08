@@ -80,8 +80,8 @@ h2 {
                             <a class="btn p-2 btn-secondary-outline display-4 fs-5" style="font-family:'Times New Roman', Times, serif;" href="{{url('amethi-tech')}}">Read more</a>
                         </div>
                         <div class="title mt-2 p-2">
-                            <h2>"𝙶𝚎𝚝 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚖𝚊𝚍𝚎 𝚒𝚗 𝚓𝚞𝚜𝚝 <br> 𝚁𝚜 4,899."</h2>
-                            <a target="_blank" href="" class="white-mode">Amethitech</a>
+                            <h2>"𝙶𝚎𝚝 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚖𝚊𝚍𝚎 𝚒𝚗 𝚓𝚞𝚜𝚝 <br> 𝚁𝚜 4,999."</h2>
+                            <a target="_blank" href="https://www.amethitech.com/gallery" class="white-mode">Amethitech</a>
                         </div>
                     </div>
                 </div>
