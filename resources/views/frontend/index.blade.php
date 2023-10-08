@@ -4,8 +4,8 @@
 @endsection
 
 @section('meta')
-<meta name="description" content="Amethitech is a dynamic website design company in Amethi, specializing in website design for schools, hotels, and hospitals. Contact us at 7217645059 for low-cost and effective website solutions for your business.">
-<meta name="keywords" content="website design in Amethi">
+<meta name="description" content="Amethitech is a dynamic website design company in up, specializing in website design for schools, hotels, and hospitals. Contact us at 7217645059 for low-cost and effective website solutions for your business.">
+<meta name="keywords" content="website design in up">
 @endsection
 <style>
 @import url("https://fonts.googleapis.com/css?family=Cairo");
@@ -81,7 +81,7 @@ h2 {
                         </div>
                         <div class="title mt-2 p-2">
                             <h2>"𝙶𝚎𝚝 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚖𝚊𝚍𝚎 𝚒𝚗 𝚓𝚞𝚜𝚝 <br> 𝚁𝚜 4,899."</h2>
-                            <a target="_blank" href="http://codepen.io/Moslim/" class="white-mode">Amethitech</a>
+                            <a target="_blank" href="" class="white-mode">Amethitech</a>
                         </div>
                     </div>
                 </div>

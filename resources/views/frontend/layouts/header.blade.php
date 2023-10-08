@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web development services in Amethi. Best website design, low-cost website design. School website design, college website design, responsive web design, e-commerce website design, website maintenance services, web design services">
-    <meta property="og:title" content="Website design in Amethi">
+    <meta property="og:title" content="Website design in up">
     <meta property="og:description" content="School website design, college website design, responsive web design, e-commerce website design, website maintenance services, web design services">
     <meta property="og:image" content="{{ asset('assets/image/logo.png') }}">
     <meta name="twitter:card" content="summary_large_image">
