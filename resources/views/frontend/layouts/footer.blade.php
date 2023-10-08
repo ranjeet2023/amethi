@@ -73,11 +73,11 @@
                     <i class="fa-solid fa-phone-volume fa-fade"></i>
                 <div class="contact-details ms-3">
                     <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">
-                        <a href="tel:+7217645059">+91-7217645059</a>
+                        <a href="tel:+917217645059">+91-7217645059</a>
                     </p>
-                    <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">
-                        <a href="tel:+7217645059">+91-7217645059</a>
-                    </p>
+                    {{-- <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">
+                        <a href="tel:+917217645059">+91-7217645059</a>
+                    </p> --}}
                 </div>
             </div>
             <div class="contact-item d-flex align-items-center mt-2" >
