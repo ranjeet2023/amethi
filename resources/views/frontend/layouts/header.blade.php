@@ -83,7 +83,7 @@
                                     style="padding: 0px !important;margin-left: 0px !important;font-family:'Times New Roman', Times, serif;">Project</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link text-secondary display-4 fs-4" href="{{ url('/#features06-b') }}"
+                                <a class="nav-link link text-secondary display-4 fs-4" href="{{ url('/contact') }}"
                                     style="padding: 0px !important;margin-left: 0px !important;font-family:'Times New Roman', Times, serif;">Contacts</a>
                             </li>
                         </ul>
