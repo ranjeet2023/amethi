@@ -29,13 +29,11 @@
                             </a>
                         </div>
 
-                        <h1 class="mbr-section-title mbr-fonts-style mb-4 display-1" style="font-family:'Times New Roman', Times, serif;font-size:50px">
+                        {{-- <h1 class="mbr-section-title mbr-fonts-style mb-4 display-1" style="font-family:'Times New Roman', Times, serif;font-size:50px">
                             <strong>Website design company </strong>
-                        </h1>
-                        <p class="mbr-text mbr-fonts-style display-7 fs-4" style="line-height: 1.6rem; font-family:'Times New Roman', Times, serif">
-                            "Amethitech: Your trusted website design company in Amethi. We specialize in creating
-                            stunning, user-friendly websites for schools, colleges,
-                             hospitals, hotels, food delivery, and e-commerce businesses"
+                        </h1> --}}
+                        <p class="mbr-text mbr-fonts-style display-7 fs-4" style="line-height: 1.4rem; font-family:'Times New Roman', Times, serif">
+                            "𝙰𝚖𝚎𝚝𝚑𝚒𝚝𝚎𝚌𝚑:- 𝚈𝚘𝚞𝚛 𝚝𝚛𝚞𝚜𝚝𝚎𝚍 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚍𝚎𝚜𝚒𝚐𝚗 𝚌𝚘𝚖𝚙𝚊𝚗𝚢. 𝚆𝚎 𝚜𝚙𝚎𝚌𝚒𝚊𝚕𝚒𝚣𝚎 𝚒𝚗 𝚌𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚜𝚝𝚞𝚗𝚗𝚒𝚗𝚐, 𝚞𝚜𝚎𝚛-𝚏𝚛𝚒𝚎𝚗𝚍𝚕𝚢 𝚠𝚎𝚋𝚜𝚒𝚝𝚎𝚜 𝚏𝚘𝚛 𝚜𝚌𝚑𝚘𝚘𝚕𝚜, 𝚌𝚘𝚕𝚕𝚎𝚐𝚎𝚜,𝚑𝚘𝚜𝚙𝚒𝚝𝚊𝚕𝚜, 𝚑𝚘𝚝𝚎𝚕𝚜, 𝚏𝚘𝚘𝚍 𝚍𝚎𝚕𝚒𝚟𝚎𝚛𝚢, 𝚊𝚗𝚍 𝚎-𝚌𝚘𝚖𝚖𝚎𝚛𝚌𝚎 𝚋𝚞𝚜𝚒𝚗𝚎𝚜𝚜𝚎𝚜"
                         </p>
                         <div class="mbr-section-btn mt-4">
                             <a class="btn btn-secondary-outline display-4 fs-4" style="font-family:'Times New Roman', Times, serif;" href="{{url('amethi-tech')}}">Read more</a>
