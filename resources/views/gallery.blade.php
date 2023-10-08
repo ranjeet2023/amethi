@@ -62,7 +62,7 @@
     <section data-bs-version="5.1" class="features6 cid-tlVYUtaSS3" id="features06-b" style='background-color:#c6ffe0 !important'>
         <div class="container" >
             <div class="image-gallery"  >
-                @foreach ($gallery as $image)
+                @foreach ($paginatedData as $image)
                     <div class="image" >
                         <img src="{{ asset('uploads/' . $image->image) }}" alt="{{ $image->title }}">
                         <p>{{ $image->title }}</p>
@@ -70,7 +70,7 @@
                 @endforeach
             </div>
             <div id="pagination" >
-                {{ $gallery->links() }}
+                {{ $paginatedData->links() }}
             </div>
         </div>
     </section>

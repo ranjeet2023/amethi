@@ -560,7 +560,6 @@ h2 {
                                         </div>
                                         <div class="ms-3">
                                             <h5 class="text-primary">Mobile</h5>
-                                            <p class="mb-0">+91-7755897867</p>
                                             <p class="mb-0">+91-7217645059</p>
                                         </div>
                                     </div>

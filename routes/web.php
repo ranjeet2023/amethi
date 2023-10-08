@@ -47,7 +47,7 @@ Route::get('web-maintaine', [FrontEndController::class,'WebMaintaine']);
 Route::get('amethi-tech', [FrontEndController::class,'AmethiTech']);
 Route::post('send-mail', [FrontEndController::class,'SendMail']);
 Route::post('storenow', [FrontEndController::class,'StoreNow']);
-Route::get('gallery', [ProfileController::class,'uploadimage']);
+Route::get('gallery', [ProfileController::class,'uploadimage'])->name('gallery');
 Route::get('project', [ProfileController::class,'project']);
 
 Route::get('clear', function() {

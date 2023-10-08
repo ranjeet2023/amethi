@@ -7,6 +7,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\View\View;
 use App\Models\Image;
 
@@ -76,12 +77,19 @@ class ProfileController extends Controller
 
     public function uploadimage()
     {
-        // $gallery =Image::get();
-        $gallery = Image::paginate(36); // Paginate by 10 items per page
-
-        return view('gallery',compact('gallery'));
-
+        $allImages = Image::all()->shuffle();
+        $perPage = 36;
+        $currentPage = request()->get('page', 1);
+        $paginatedData = new LengthAwarePaginator(
+            $allImages->slice(($currentPage - 1) * $perPage, $perPage)->values(),
+            count($allImages),
+            $perPage,
+            $currentPage,
+           ['path' => route('gallery')]
+        );
+        return view('gallery', compact('paginatedData'));
     }
+
     public function project()
     {
         return view('project');
