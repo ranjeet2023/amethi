@@ -535,13 +535,10 @@
                             </div>
                         </div>
                         <div class="card col-12 col-md-12 col-lg-12">
-                            <div class="card-wrapper">
-                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                                    <iframe class="position-relative rounded w-100 h-100"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.7726238008718!2d81.8202397!3d26.1715336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399af5aaec6cda0d%3A0xde1e38171848ea67!2sSHUBH%20IT%20SOLUTION!5e0!3m2!1sen!2sin!4v1686972616065!5m2!1sen!2sin"
-                                        width="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
+                            <div class="card-wrapper  p-0" >
+                                {{-- <div  data-wow-delay="0.3s"> --}}
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223.7985425360502!2d81.82028533886783!3d26.171401514888387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399af53e8b238743%3A0xa0ad07a64dde17f7!2samethitech!5e0!3m2!1shi!2sin!4v1696785884585!5m2!1shi!2sin" width="auto" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                {{-- </div> --}}
                             </div>
                         </div>
                     </div>

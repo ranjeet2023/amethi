@@ -48,6 +48,7 @@ Route::get('amethi-tech', [FrontEndController::class,'AmethiTech']);
 Route::post('send-mail', [FrontEndController::class,'SendMail']);
 Route::post('storenow', [FrontEndController::class,'StoreNow']);
 Route::get('gallery', [ProfileController::class,'uploadimage']);
+Route::get('project', [ProfileController::class,'project']);
 
 Route::get('clear', function() {
     Artisan::call('cache:clear');

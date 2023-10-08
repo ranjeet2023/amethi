@@ -82,4 +82,10 @@ class ProfileController extends Controller
         return view('gallery',compact('gallery'));
 
     }
+    public function project()
+    {
+        return view('project');
+    }
+
+
 }
