@@ -7,7 +7,46 @@
 <meta name="description" content="Amethitech is a dynamic website design company in Amethi, specializing in website design for schools, hotels, and hospitals. Contact us at 7217645059 for low-cost and effective website solutions for your business.">
 <meta name="keywords" content="website design in Amethi">
 @endsection
+<style>
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+.title {
+	font-family: "Cairo";
+	text-align: center;
+	color: #1e1edc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+	line-height: 2;
+}
 
+h2 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+
+	background-color: #122;
+	border-radius: 3px;
+	color: #fff;
+	transition: 0.35s ease-in-out;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #fff;
+	color: #122;
+}
+
+</style>
 @section('index-script')
     <script src="https://kit.fontawesome.com/26ae5e4e2d.js" crossorigin="anonymous"></script>
 @endsection
@@ -39,6 +78,10 @@
                         </p>
                         <div class="mbr-section-btn mt-4">
                             <a class="btn btn-secondary-outline display-4 fs-4" style="font-family:'Times New Roman', Times, serif;" href="{{url('amethi-tech')}}">Read more</a>
+                        </div>
+                        <div class="title mt-2 p-2">
+                            <h2>"𝙶𝚎𝚝 𝚢𝚘𝚞𝚛 𝚙𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚖𝚊𝚍𝚎 𝚒𝚗 𝚓𝚞𝚜𝚝 <br> 𝚁𝚜 4,899."</h2>
+                            <a target="_blank" href="http://codepen.io/Moslim/" class="white-mode">Amethitech</a>
                         </div>
                     </div>
                 </div>

@@ -64,14 +64,20 @@
             <div class="contact-item d-flex align-items-center" >
                     <i class="fa-regular fa-envelope fa-fade text-white"></i></i>
                 <div class="contact-details ms-3">
-                    <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">ranjeet@amethitech.com</p>
+                    <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">
+                        <a href="mailto:ranjeet@amethitech.com">ranjeet@amethitech.com</a>
+                        </p>
                 </div>
             </div>
             <div class="contact-item d-flex align-items-center mt-2" >
                     <i class="fa-solid fa-phone-volume fa-fade"></i>
                 <div class="contact-details ms-3">
-                    <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">+91-7755897867</p>
-                    <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">+91-7217645059</p>
+                    <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">
+                        <a href="tel:+7217645059">+91-7217645059</a>
+                    </p>
+                    <p class="mb-0 fs-4" style="font-family:'Times New Roman', Times, serif;">
+                        <a href="tel:+7217645059">+91-7217645059</a>
+                    </p>
                 </div>
             </div>
             <div class="contact-item d-flex align-items-center mt-2" >
