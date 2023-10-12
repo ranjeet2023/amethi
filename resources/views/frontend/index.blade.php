@@ -58,13 +58,13 @@ h2 {
                     <div class="text-wrapper align-left md-pb">
                         <div class="subtitle-align-wrap contact-us" >
                             <a href="#features06-b ">
-                                <div class="subtitle-wrap d-none d-sm-block">
+                                {{-- <div class="subtitle-wrap d-none d-sm-block">
                                     <span class=""><i class="fa-solid fa-code"></i></span>
                                     <h2 class=" mbr-section-subtitle mbr-fonts-style m-0 p-0 display-7 fs-4" style="font-family:'Times New Roman', Times, serif;">
                                         Website Design
                                     </h2>
                                     <span class="mbr-iconfont fs-25 "><i class="fa-solid fa-arrow-right fa-fade"></i></span>
-                                </div>
+                                </div> --}}
                             </a>
                         </div>
 
