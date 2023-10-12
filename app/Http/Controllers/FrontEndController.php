@@ -99,6 +99,7 @@ class FrontEndController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'number' => $request->mobile,
+             'address' => $request->address,
             'subject' => 'this is subject for join now ',
             'message' => 'this email is come for join form',
         ];
@@ -106,8 +107,8 @@ class FrontEndController extends Controller
             Mail::to('ranjeetmaurya2033@gmail.com')->send(new SendMail($data));
         } catch (\Exception $e) {
             $errorMessage = 'Error sending email: ' . $e->getMessage();
-            return view('frontend.index');
-        }
 
+        }
+        return redirect()->back()->withSuccess('Your form send successfully');
     }
 }

@@ -63,8 +63,9 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fa fa-map-marker fa-lg me-3 fa-fw" aria-hidden="true"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input type="text" id="form3Example1c" name="address"
-                                                value="{{ old('email') }}" class="form-control" />
+                                            <textarea name="address" id=""  class="form-control" >{{ old('address') }}</textarea>
+                                            {{-- <input type="text" id="form3Example1c" name="address"
+                                                value="{{ old('email') }}" class="form-control" /> --}}
                                             <label class="form-label" for="form3Example1c">Address </label>
                                             @error('address')
                                                 <div class="text-danger">{{ $message }}</div>
